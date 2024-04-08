@@ -1,0 +1,15 @@
+date = "2024-04-08"
+
+[timed-habits]
+reading = 0
+coding = 0
+side_project = 0
+workout = 0
+
+[quantitative-habits]
+jump-rope = 0
+bicep-curls = 0
+shoulder-raises = 0
+tricep-dips = 0
+pushups = 0
+squats = 0

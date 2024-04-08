@@ -1,4 +1,5 @@
 run/
+template/tracker.toml
 
 # Go workspace file
 go.work
