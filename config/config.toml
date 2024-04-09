@@ -1,0 +1,10 @@
+[db-config]
+username = "root"
+password = "root"
+net = "tcp"
+address = "127.0.0.1:3306"
+db-name = "trackers"
+table-name = "habit-tracker"
+
+[paths]
+tracker-path = "./template/tracker.toml"
