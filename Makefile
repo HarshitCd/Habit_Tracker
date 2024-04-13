@@ -3,7 +3,7 @@ build:
 
 exe:
 	@make build
-	@./run/habit_tracker
+	@./run/habit_tracker $(OPTION)
 
 clean:
 	@rm -rf run

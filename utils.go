@@ -31,9 +31,9 @@ func PutTrackingData(ds DataSource, trackingData TrackingData) {
 	}
 }
 
-func GetConfig() TrackerConfig {
+func GetConfig(configPath string) TrackerConfig {
 	var trackerConfig TrackerConfig
-	doc, err := os.ReadFile("./config/config.toml")
+	doc, err := os.ReadFile(configPath)
 	if err != nil {
 		log.Println("error while reading the config,", err)
 	}

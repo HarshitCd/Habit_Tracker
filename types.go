@@ -38,6 +38,7 @@ type PathsConfig struct {
 }
 
 type TrackerConfig struct {
+	Editor         string      `toml:"editor"`
 	DatabaseConfig DBConfig    `toml:"db-config"`
 	Paths          PathsConfig `toml:"paths"`
 }
